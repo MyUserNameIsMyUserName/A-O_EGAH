@@ -4,11 +4,10 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
 
-const PORT = 7777;
+const PORT = 6262;
 
-const STATIC = path.resolve(__dirname, "PUBLIC");
+const STATIC = path.resolve(__dirname, "Test_app");
 const INDEX = path.resolve(STATIC, "index.html");
-
 
 const app = express();
 app.use(bodyParser.json());
@@ -20,5 +19,5 @@ app.use(express.static(STATIC));
 
 // Start server
 app.listen(PORT, function () {
-    console.log("Server up and running on http://localhost:" + PORT + "/");
+  console.log("Server up and running on http://localhost:" + PORT + "/");
 });
