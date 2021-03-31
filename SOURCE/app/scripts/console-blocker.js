@@ -1,6 +1,3 @@
-// via: https://news.ycombinator.com/item?id=7222129
-// found: http://davidwalsh.name/disable-console
-
 (function () {
   try {
     var $_console$$ = console;

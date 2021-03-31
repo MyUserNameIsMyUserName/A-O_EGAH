@@ -1,40 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    line-height: 1em;
-    font-size: 14px;
-    font-family: monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1em;
+  font-size: 14px;
+  font-family: monospace;
 }
 
-html, body {
-    display: flex;
-    flex-direction: column;
-    background-color: #121212;
-    color: white;
-    min-height: 100%;
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #121212;
+  color: white;
+  min-height: 100%;
 }
 
 body {
-    min-height: 100%;
-    gap: 1em;
+  min-height: 100%;
+  gap: 1em;
 
-    h1 {
-        font-size: 2em;
-        font-weight: bold;
-        padding: 1em 2em;
-        border: 1px solid darkred;
-    }
-
-
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em 2em;
+    border: 1px solid darkred;
+  }
 }
 
-
-@import './buttons.scss' ;
-
-
-
+@import "./buttons.scss";
 
 #app {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
