@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/jpg" href="/assets/img/logo.png"/>
-    <link href="/styles/main.css" rel="stylesheet" />
-    <script src="/scripts/egah.js"></script>
-    <script src="/scripts/console-blocker.js"></script>
+    <link
+      rel="preload"
+      href="http://localhost:665/scripts/console-blocker.js"
+      as="script"
+    />
+    <link
+      rel="preload"
+      href="http://localhost:665/scripts/egah.js"
+      as="script"
+    />
+    <link rel="preload" as="image" href="/assets/img/logo.png" />
+    <link rel="preload" href="/assets/css/demo.css" as="style" />
+    <link href="/assets/css/demo.css" rel="stylesheet" />
+    <script src="http://localhost:665/scripts/console-blocker.js"></script>
+    <link href="http://localhost:665/styles/main.css" rel="stylesheet" />
   </head>
   <body>
     <div id="app">
@@ -62,5 +72,6 @@
 
     </div>
     <script src="/app.js"></script>
+    <script src="http://localhost:665/scripts/egah.js"></script>
   </body>
 </html>

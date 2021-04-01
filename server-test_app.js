@@ -6,7 +6,7 @@ const path = require("path");
 
 const PORT = 6262;
 
-const STATIC = path.resolve(__dirname, "Test_app");
+const STATIC = path.resolve(__dirname, "bugz_app");
 const INDEX = path.resolve(STATIC, "index.html");
 
 const app = express();
