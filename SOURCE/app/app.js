@@ -37,7 +37,7 @@ var someObject = { str: "Some text", id: 5 };
 console.info("My first car was a", car, ". The object is:", someObject);
 
 
-
+/*
 
 console.log("This is the outer level");
 console.group("First group");
@@ -59,6 +59,8 @@ alert("Do a bunch of other stuff...");
 console.timeEnd("answer time");
 
 
+
+*/
 };
 
 //▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄

@@ -12,7 +12,7 @@ function console_prnt_to_container(elemId="null", msg, msgtype="log"){
   const currentDiv = document.getElementById(elemId);
   currentDiv.appendChild(newLogItem);
 
-  //console.clear();
+  console.clear();
 }
 
 window.onerror = function (msg, url, lineNo, columnNo, error) {
@@ -30,6 +30,7 @@ window.onerror = function (msg, url, lineNo, columnNo, error) {
     ].join(" - ");
     console_prnt_to_container("egahErrorListDisplay", message, "error");
   }
+  console.clear();
   return false;
 };
 
